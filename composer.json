@@ -1,0 +1,36 @@
+{
+  "name": "roussks/financial-year-chronos",
+  "description": "This is the Chronos Adapter implementation of roussks/financial-year library.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "RoussKS",
+      "homepage": "https://www.roussks.com"
+    }
+  ],
+  "config": {
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "RoussKS\\FinancialYear\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "RoussKS\\FinancialYear\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "php": "^7.1",
+    "cakephp/chronos": "^1.0.1",
+    "roussks/financial-year": "1.1.*"
+  },
+  "require-dev": {
+    "fzaninotto/faker": "~1.8",
+    "phpunit/phpunit": "^7 || ^8"
+  }
+}
